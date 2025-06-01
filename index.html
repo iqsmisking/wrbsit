@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Discord Mod Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Discord Moderator Simulator</h1>
+  <div id="stats">
+    <p>Reputation: <span id="reputation">0</span></p>
+    <p>Money: $<span id="money">100</span></p>
+    <p>Food: <span id="food">100</span>%</p>
+  </div>
+  <div id="actions">
+    <button onclick="banUser()">Ban User</button>
+    <button onclick="deleteMessages()">Delete Messages</button>
+    <button onclick="reviewApplication()">Review Staff Application</button>
+    <button onclick="buyFood()">Buy Food ($10)</button>
+  </div>
+  <div id="log"></div>
+  <script src="script.js"></script>
+</body>
+</html>
